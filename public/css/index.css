@@ -1,0 +1,188 @@
+.logo{
+
+    justify-content: left;
+}
+body{
+    width:100%;
+    height: 100%;
+    background-image: url('../image/Home.png');
+    background-size: 100%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav image{
+    justify-content: left;
+}
+
+.center {
+    width: 60%;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.center input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.nav ul {
+
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    position: relative;
+    right: 20px;
+}
+
+.nav li {
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.nav a {
+    font-size: 18px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-decoration: none; /* Remove underline */
+}
+
+.nav a:hover {
+    /* Optional: Add a hover effect if needed */
+    text-decoration: none; /* Remove underline */
+    color: deepskyblue; /* Use the default text color */
+}
+
+.nav li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    font-size: 80px;
+    font-family: "Libre Baskerville", serif;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#popupWindow {
+    margin-top: 5px;
+    border-radius: 15px;
+    position: fixed;
+    top: 0;
+    right: -100%; /* Скрыто за пределами экрана */
+    width: 30%;
+    height: 98%;
+    background-color: white;
+    transition: right 0.3s ease; /* Анимация появления */
+    z-index: 999; /* Выше остальных элементов */
+    display: flex;
+    justify-content: center; /* Центрирует по горизонтали */
+    align-items: center; /* Центрирует по вертикали */
+}
+
+#popupWindow.active {
+    right: 0; /* Появляется на экране */
+}
+
+.content {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    margin-left: 100px;
+}
+#signupForm {
+    display: none;
+    width: 100%;
+}
+
+#showWindow {
+    /* Удаление всех стилей */
+    border: none;
+    background-color: transparent;
+    color: white;
+    font: inherit;
+    padding: 0;
+    cursor: pointer;
+    /* Опционально: убрать подчеркивание при наведении */
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+}
+
+#authIcon{
+    width: 60px;
+    height: 60px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.rightSide p {
+    color: white;
+    padding-right: 40px;
+    padding-top: 23px;
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+}
+
+#loginModalLabel{
+    font-size: 30px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.form-group input{
+    width: 200%;
+}
+
+#showSignup{
+    margin-top: 100px;
+}
+
+.content button{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font: inherit;
+    padding: 0;
+    cursor: pointer;
+    /* Опционально: убрать подчеркивание при наведении */
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+}
+
+#closeWindow{
+    margin-top: 30px;
+}
+
+#signupForm{
+    display: flex;
+}
+

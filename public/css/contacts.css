@@ -1,0 +1,101 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    justify-content: left;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav image{
+    justify-content: left;
+}
+
+.center {
+    width: 60%;
+    justify-content: center;
+}
+.center input{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: right;
+    margin-left: 10px; /* Add space between center and right content */
+}
+
+.nav ul {
+
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.nav a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none; /* Remove underline */
+}
+
+.nav a:hover {
+    /* Optional: Add a hover effect if needed */
+    text-decoration: none; /* Remove underline */
+    color: deepskyblue; /* Use the default text color */
+}
+
+.nav li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.card {
+    width: 300px;
+    border: 1px solid #3e83ff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card .description {
+    background-color: #5053e2;
+    padding: 15px;
+}
+.card h3 {
+    color: white;
+}
+.card p {
+    color: white;
+}
+#map {
+    width: 100%;
+    height: 400px;
+}
